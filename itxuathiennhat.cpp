@@ -56,20 +56,20 @@ void tanso(int s[][50], int row, int col, int ts[][50],int itnhat[50],int &e)
 		}
 	}
 }
-int main()
-{
-	int s[50][50] =
-	{
-		{ 2,3,5,3,48,67,48,23,12 },
-		{ 36,3,1,51,56,25,36,48,14 },
-		{ 98,66,45,5,3,56,5,68,53 },
-	};
-	
-	int ts[50][50],itnhat[100],e, k;
-	tanso(s, 3, 9, ts, itnhat, e);
-	for (int i = 0; i < e; i++)
-	{
-		printf("%d ", itnhat[i]);
-	}
-	return 0;
-}
+//int main()
+//{
+//	int s[50][50] =
+//	{
+//		{ 2,3,5,3,48,67,48,23,12 },
+//		{ 36,3,1,51,56,25,36,48,14 },
+//		{ 98,66,45,5,3,56,5,68,53 },
+//	};
+//	
+//	int ts[50][50],itnhat[100],e, k;
+//	tanso(s, 3, 9, ts, itnhat, e);
+//	for (int i = 0; i < e; i++)
+//	{
+//		printf("%d ", itnhat[i]);
+//	}
+//	return 0;
+//}
